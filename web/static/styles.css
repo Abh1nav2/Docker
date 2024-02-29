@@ -1,0 +1,50 @@
+body {
+    background-image: url('background.jpg');
+    background-size:75% auto; /* Stretch horizontally by 10%, maintain aspect ratio vertically */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; /* Optional: Keep background fixed while scrolling */
+    background-color: black;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Change font family */
+}
+
+h2, label {
+    color: #e8e8e8; /* Change font color */
+}
+
+/* styles.css */
+
+/* Style for the submit button */
+input[type="submit"] {
+    background-color: #bd8f38; /* Green background */
+    color: white; /* White text */
+    padding: 10px 20px; /* Padding */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Cursor on hover */
+    font-size: 16px; /* Font size */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+/* On hover, change background color */
+input[type="submit"]:hover {
+    background-color: #153cca;
+}
+
+.radio-td input[type="radio"] {
+    display: block; /* Make the radio button a block-level element */
+    margin: 0 auto; /* Center the radio button horizontally */
+}
+
+
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; /* Align form contents center horizontally */
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="static/styles.css">
+    <link rel="icon" type="image/x-icon" href="static/icon.png">
+</head>
+<body>
+    <center><h1>Hello {{ gamer }}</h1></center>
+    <div class="container">
+        <h2>Rock Paper Scissors!!!!</h2>
+        <form action="/submit" method="post">
+            <table>
+                <tr>
+                    <td><img src="/static/rock.png" alt="Rock" height="100px"></td>
+                    <td><center><input type="radio" id="rock" name="choice" value="Rock"></center></td>
+                </tr>
+                <tr>
+                    <td><img src="/static/paper2.png" alt="Paper" height="100px"></td>
+                    <td><center><input type="radio" id="paper" name="choice" value="Paper"></center></td>
+                </tr>
+                <tr>
+                    <td><img src="/static/scissors2.png" alt="Scissors" height="100px" ></td>
+                    <td><center><input type="radio" id="scissors" name="choice" value="Scissors"></center></td>
+                </tr>
+            </table>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
